@@ -11,7 +11,7 @@ function App() {
   const [FixedapiData, setFixedapiData] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
-      let resData = await axios.get("/");
+      let resData = await axios.get("/getData");
       setFixedapiData(resData.data);
     }
     fetchData();

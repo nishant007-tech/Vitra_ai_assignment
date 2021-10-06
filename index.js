@@ -6,7 +6,7 @@ const fs = require("fs");
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/getData", (req, res) => {
     fs.readFile("./people.json", "utf-8", (err, jsonString) => {
         if (err) {
             console.log("Error reading file from disk:", err);
