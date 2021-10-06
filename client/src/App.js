@@ -9,7 +9,6 @@ import axios from 'axios';
 function App() {
 
   const [FixedapiData, setFixedapiData] = useState([]);
-
   useEffect(() => {
     const fetchData = async () => {
       let resData = await axios.get("/");
