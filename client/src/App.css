@@ -75,10 +75,13 @@ a{
 .sliderContainer b{
   font-size: 25px;
   position: relative;
-  z-index: 2;
+  /* z-index: 2; */
 }
 .css-187mznn-MuiSlider-root{
   z-index: 2;
+}
+.css-1v5z18m{
+z-index: 200;
 }
 
 .containerCard{
