@@ -12,8 +12,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      let resData = await axios.get("http://localhost:5000/");
-      // setapiData(resData.data);
+      let resData = await axios.get("/");
       setFixedapiData(resData.data);
     }
     fetchData();
