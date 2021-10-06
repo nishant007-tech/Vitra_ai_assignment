@@ -17,7 +17,7 @@ function Non_active_users(props) {
 
     }, [])
     return (
-        <div className="Wrapper">
+        <div className="Wrapper nonActiveContainer">
             <Link to="/">
                 <Button style={{ margin: "10px", backgroundColor: "#394975" }} className="navLinks" variant="contained" startIcon={<HomeIcon />}>
                     Home

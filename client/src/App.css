@@ -6,6 +6,9 @@ body,.css-d3wcwz-MuiTypography-root{
   padding: 0;
   box-sizing: border-box;
 }
+.nonActiveContainer{
+  background-color: rgb(241, 255, 255);
+}
 .homeContainer{
   background-color: rgb(241, 255, 255);
   display: flex;
